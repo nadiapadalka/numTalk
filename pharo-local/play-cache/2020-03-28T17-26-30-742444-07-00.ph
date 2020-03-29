@@ -1,0 +1,1 @@
+array := NumArray new initializeWithColumns: 3 rows: 4.array fillInOrderFrom: 1 .Transcript show: array cells.

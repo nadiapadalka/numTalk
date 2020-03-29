@@ -1,0 +1,1 @@
+OmEntry {	#tags : {		#author : 'Unknown',		#time : DateAndTime [ '2020-03-28T17:25:09.281034-07:00' ],		#prior : OmReference [ 'Pharo9.0-SNAPSHOT-64bit-882810f.1acmfy3vhftl7d1mgp6ux2qkp', '7976' ],		#self : OmReference [ '1' ]	},	#content : EpSessionSnapshot {		#imageName : 'C:\\Users\\Vitalii\\Documents\\Pharo\\images\\NumTalk\\NumTalk.image'	}}
