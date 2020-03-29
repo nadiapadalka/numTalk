@@ -1,0 +1,39 @@
+[31mInstance of MCVersionInspector did not understand #selectedClassOrMetaClass
+[0mMCVersionInspector(Object)>>doesNotUnderstand: #selectedClassOrMetaClass
+CompletionEngine>>openMenu
+[ editor atCompletionPosition
+	ifTrue: [ self openMenu ] ] in [ (Delay forMilliseconds: NECPreferences popupAutomaticDelay) wait.
+UIManager default
+	defer: [ editor atCompletionPosition
+			ifTrue: [ self openMenu ] ] ] in CompletionEngine>>resetCompletionDelay in Block: [ editor atCompletionPosition...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m[31mInstance of MCVersionInspector did not understand #selectedClassOrMetaClass
+[0mMCVersionInspector(Object)>>doesNotUnderstand: #selectedClassOrMetaClass
+CompletionEngine>>openMenu
+[ editor atCompletionPosition
+	ifTrue: [ self openMenu ] ] in [ (Delay forMilliseconds: NECPreferences popupAutomaticDelay) wait.
+UIManager default
+	defer: [ editor atCompletionPosition
+			ifTrue: [ self openMenu ] ] ] in CompletionEngine>>resetCompletionDelay in Block: [ editor atCompletionPosition...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m
